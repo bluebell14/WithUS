@@ -1,56 +1,33 @@
- body{
-       /* 背景色指定 */
-    background-color:#ECB0C1;
-    color:007EB5;
-    }
-
-    div.imgt {
-       position:absolute;
-       top:1em;
-       left:20em;
-       padding: 0px;
-    }
-    p.title {
-        font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
-        color: #eaf4fc;
-        font-size:4em;
-        line-height:80%;
-        margin: 0px;
-    }
-
-    div.menu {
-        position:absolute;
-        top:4em;
-        left:3em;
-        border:1px solid;
-        padding:10px;
-        font-size: 2em;
-        line-height:120%;
-        font-family: 'Arial Black','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
-        color:#cccccc;
-        //background-color:black;
-    }
-
 body {
-   font-family:'Noto Sans JP',sans-serif;
-   background-color:#f6f5f4;
+  background: #ECB0C1;
 }
 
-.side {
-  background-color:#ff838b;
-  width:100px;
-  height:300px;
-  text-align:center;
-} 
-
-.content {
-  background-color:#b3d874;
-  width:250px;
-  height:300px;
-  text-align:center;
-  margin-left:10px;/*サイドバーとメインコンテンツの間に隙間をあけた*/
+.test {
+  width: 870px;
+  height: 370px;
+  margin: 0% auto;
+  background: url('https://dl.dropboxusercontent.com/s/e2z7pzp9dd54cbr/S__13664262.png') left center;
+  
 }
 
-article {
-  display:flex;/*サイドバーとメインコンテンツを横並びにする指定をした*/
+
+
+@media screen and (max-width:480px) {
+	p {
+		width: 100%;
+		margin: 0px 0 10px 0;
+	}
+ 
+	main {
+		width: 100%;
+	}
+ 
+	.imgarea {
+		width: 100%;
+	}
+ 
+	aside {
+		width: 100%;
+		margin: 30px 0 0 0;
+	}
 }
