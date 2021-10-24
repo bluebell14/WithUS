@@ -45,7 +45,7 @@ header h1{
   }
 
   #MenuList a {
-    color: white;
+    color: #ECB0C1;
   }
 
 @media only screen and (max-width: 768px) {
@@ -62,7 +62,7 @@ header h1{
       display: block;
       height: 2px;
       width: 30px;
-      background: #BBB;
+      background: white;
       transition: ease .5s;
     }
 
@@ -131,7 +131,7 @@ header h1{
 section {
   padding: 40px;
   height: 500px;
-  background-color: #dddddd;
+  background-color: #ECB0C1;
   margin-bottom: 40px;
 }
 
