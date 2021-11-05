@@ -77,10 +77,7 @@ section{
 }
 
 .fadeIn{
-animation-name:fadeInAnime;
-animation-duration:3s;
-animation-fill-mode:forwards;
-opacity:0;
+text-align: center;
 }
 
 @keyframes fadeInAnime{
